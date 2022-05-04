@@ -5,8 +5,11 @@ import {
   Status,
 } from "https://deno.land/x/oak/mod.ts";
 
-let api_url: string = "http://192.168.254.22:8000";
-let app_url: string = "http://192.168.254.22:9001";
+// URL for backend
+let api_url: string = "http://localhost:8000";
+
+// URL for frontend
+let app_url: string = "http://localhost:9001";
 
 const style = `
 body {
